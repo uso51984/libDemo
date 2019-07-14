@@ -1,6 +1,6 @@
 {
   "name": "resizable-columns-table",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "javascript plugin to resize table columns",
   "main": "lib/index.js",
   "scripts": {
@@ -17,6 +17,10 @@
       "resizable-columns-table": [
         "./src/index.js"
       ]
+    },
+    "server": {
+      "htmlTemplatePath": "./examples/index.html",
+      "port": 9200
     }
   },
   "author": "chenjianbin",
@@ -35,7 +39,7 @@
     "resizable"
   ],
   "devDependencies": {
-    "bee-build-tools": "0.0.20",
+    "bee-build-tools": "0.0.24",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
