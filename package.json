@@ -6,10 +6,11 @@
   "scripts": {
     "dist": "bee-tools run dist",
     "dev": "webpack-dev-server --config ./webpack.dev.js",
-    "compile": "bee-tools run compile",
+    "compile": "bee-tools run compile --babel-runtime",
     "buildExample": "bee-tools run buildExample",
     "gh-pages": "bee-tools run gh-pages",
-    "release": "bee-tools run release"
+    "release": "bee-tools run release",
+    "css": "bee-tools run css"
   },
   "config": {
     "name": "createColResizable",
@@ -39,7 +40,7 @@
     "resizable"
   ],
   "devDependencies": {
-    "bee-build-tools": "0.0.24",
+    "bee-build-tools": "0.0.26",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }

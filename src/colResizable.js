@@ -68,8 +68,9 @@ export default class ColResizable {
       const disabledColumn = disabledColumns.indexOf(index) !== -1;
       let domElmHandle;
       if (!hasHandleContainer) {
-        this.domElmHandleContainer.insertAdjacentHTML('beforeend',
-        `<div class="drag-handle">
+        this.domElmHandleContainer.insertAdjacentHTML(
+          'beforeend',
+          `<div class="drag-handle">
           <i class="icon icon-caret-right"></i>
           <div class="col-resizer"></div>
           <i class="icon icon-caret-left"></i>
