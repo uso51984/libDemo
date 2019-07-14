@@ -1,6 +1,6 @@
 {
   "name": "resizable-columns-table",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "javascript plugin to resize table columns",
   "main": "lib/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "compile": "bee-tools run compile",
     "buildExample": "bee-tools run buildExample",
     "gh-pages": "bee-tools run gh-pages",
-    "publish": "bee-tools run publish"
+    "perpublish": "bee-tools run publish"
   },
   "config": {
     "name": "createColResizable",
