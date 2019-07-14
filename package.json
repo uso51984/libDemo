@@ -1,6 +1,6 @@
 {
   "name": "resizable-columns-table",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "javascript plugin to resize table columns",
   "main": "lib/index.js",
   "scripts": {
