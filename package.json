@@ -1,0 +1,41 @@
+{
+  "name": "resizable-columns-table",
+  "version": "1.0.7",
+  "description": "javascript plugin to resize table columns",
+  "main": "lib/index.js",
+  "scripts": {
+    "dist": "bee-tools run dist",
+    "dev": "webpack-dev-server --config ./webpack.dev.js",
+    "compile": "bee-tools run compile",
+    "buildExample": "bee-tools run buildExample",
+    "gh-pages": "bee-tools run gh-pages",
+    "publish": "bee-tools run publish"
+  },
+  "config": {
+    "name": "createColResizable",
+    "entry": {
+      "resizable-columns-table": [
+        "./src/index.js"
+      ]
+    }
+  },
+  "author": "chenjianbin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uso51984/resizable-columns-table"
+  },
+  "license": "MIT",
+  "keywords": [
+    "javascirpt",
+    "resizable-columns-table",
+    "resizable-columns",
+    "html",
+    "table resize",
+    "resizable columns",
+    "resizable"
+  ],
+  "devDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
