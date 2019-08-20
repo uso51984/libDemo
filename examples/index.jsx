@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ResizableTable from './ResizableTable';
+import APP from 'src';
 
 ReactDOM.render(
-  <ResizableTable />,
+  <APP />,
   document.getElementById('root')
 );
 
